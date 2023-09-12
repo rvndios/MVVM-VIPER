@@ -64,8 +64,8 @@ static func bind(_ view: ListViewController) -> PresenterProtocol  {
         return presenter
     }
 ```
-==Interactor== is main business logic class to access API and other data and pass to presenter for processing. 
-==Presenter== will process and update data in the view.
-==Router== is for navigation logics like push from main page to detail page.
-==Entity== - Model class for the data we are using.
+ `Interactor` is main business logic class to access API and other data and pass to presenter for processing. 
+`Presenter` will process and update data in the view.
+`Router` is for navigation logics like push from main page to detail page.
+`Entity` - Model class for the data we are using.
 
